@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/boostrap.min.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <section class="vh-100 bg-light p-5">
+        <div class="container-fluid h-custom">
+            <div class="row d-flex justify-content-center align-items-center h-100 p-5"
+                style="background-color: white !important; ">
+                <div class="col-md-9 col-lg-6 col-xl-5">
+                    <img src="./assets/img/musica.jpg" class="img-fluid" alt="Sample image">
+                </div>
+                <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+
+                    <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+                        <p class="lead fw-normal mb-0 me-3">Sign in with</p>
+                        <button type="text" style="background-color: white !important; border: none !important;"
+                            class="btn btn-light btn-floating mx-1">
+                            <i class="text-blue" data-feather="facebook"></i>
+                        </button>
+
+                        <button type="button" style="background-color: white !important; border: none !important;"
+                            class="btn btn-light btn-floating mx-1">
+                            <i class="text-bluetwi" data-feather="twitter"></i>
+                        </button>
+
+                        <button type="button" style="background-color: white !important; border: none !important;"
+                            class="btn btn-light btn-floating mx-1">
+                            <i class="text-pink" data-feather="instagram"></i>
+                        </button>
+                    </div>
+
+                    <div class="divider d-flex align-items-center my-4">
+                        <p class="text-center fw-bold mx-3 mb-0">Or</p>
+                    </div>
+
+                    <!-- Email input -->
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-4">
+                          <label for="validationCustomUsername" class="form-label">Username</label>
+                          <div class="input-group has-validation">
+                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                            <div class="invalid-feedback">
+                              Please choose a username.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <label for="validationCustom05" class="form-label">Password</label>
+                          <input type="text" class="form-control" id="validationCustom05" required>
+                          <div class="invalid-feedback">
+                            Please put the password.
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                              Agree to terms and conditions
+                            </label>
+                            <div class="invalid-feedback">
+                              You must agree before submitting.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <button class="btn btn-primary" type="submit">Submit form</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <script>
+
+        feather.replace()
+    </script>
+</body>
+
+</html>
